@@ -1,0 +1,19 @@
+n=list(map(int,input().split())) #reading the input
+a=n[0] #assigning index 0 to a variable
+s=[]  
+s=n[a:]+n[:a] #using slicing method we rotated the array
+for i in s:
+    print(i,end="")
+    
+output - 
+
+i/p1 - [3,2,1,6] 
+
+o/p1 - 6321
+
+i/p2 - [4,3,4,3,1,2]
+
+o/p2 - 124343
+
+
+
