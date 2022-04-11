@@ -1,0 +1,13 @@
+n=input()
+a=n.split()   
+p=max(a,key=len)
+m=len(p)
+c=m+2
+print("*"*c)
+for i in a:
+    z=len(i)
+    if len(i)<m:
+        print("*"+i+" "*(m-z)+"*")
+    else:
+        print("*"+i+"*")
+print("*"*c)
